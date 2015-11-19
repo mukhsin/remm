@@ -1,0 +1,53 @@
+body {
+    background: #383838;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Varela Round";
+    /*font-family: "Fredoka One";*/
+}
+
+.main-header {
+    background: #3acf7a;
+    padding: 10px 0px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Fredoka One";
+    /*font-family: "Varela Round";*/
+    text-align: center;
+}
+
+.main-content {
+    margin-top: 30px;
+}
+        .table-title {
+            margin-bottom: 5px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .matkul-table-container,
+        .ruangan-table-container,
+        .timeslot-table-container,
+        .spot-table-container,
+        .jalur-table-container,
+        .ruangan-timeslot-table-container {
+            margin-bottom: 30px;
+        }
+        .matkul-table-container,
+        .ruangan-table-container,
+        .timeslot-table-container,
+        .spot-table-container,
+        .jalur-table-container,
+        .ruangan-timeslot-table-container
+        {
+            max-height: 350px;
+            overflow-y: auto;
+        }
+.main-footer {
+    padding: 50px 0px;
+    border-top: solid 5px #3acf7a;
+    /*font-family: "Fredoka One";*/
+    font-family: "Varela Round";
+    text-align: center;
+    clear: both;
+}

@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+    margin: auto;
+    border-collapse: separate;
+}
+    thead {
+        background: #3acf7a;
+        font-weight: bold;
+    }
+        thead td {
+            padding: 10px;
+        }
+    tbody {
+        color: #383838;
+    }
+    tbody:nth-child(odd) {
+        background: #ecfff4;
+    }
+    tbody:nth-child(even) {
+        background: #ffffff;
+    }
+    tbody:hover {
+        background: #d2ffe5;
+        cursor: default;
+    }
+        td {
+            padding: 5px 10px;
+        }
