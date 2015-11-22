@@ -4,12 +4,19 @@ Aplikasi pembuat jadwal kuliah berbasis web menggunakan algoritma semut (And Col
 Untuk mengacak jadwal seperti yang dilakukan koloni semut, maka harus diketahui terlebih dahulu graf hubungan antara mata kuliah, ruangan dan waktu. Graf tersebut dapat digambarkan sebagai matriks di bawah ini.
 
 MK1R1T1 MK2R1T1 ....... MKnR1T1
+
 MK1R1T2 MK2R1T2 ....... MKnR1T2
+
 ....... ....... ....... .......
+
 MK1R1Tn MK2R1Tn ....... MKnR1Tn
+
 MK1R2T1 MK2R2T1 ....... MKnR2T1
+
 MK1R2T2 MK2R2T2 ....... MKnR2T2
+
 ....... ....... ....... .......
+
 MK1RnTn MK2RnTn ....... MKnRnTn
 
 Keterangan:
